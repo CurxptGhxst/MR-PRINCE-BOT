@@ -68,8 +68,10 @@
       "required": true,
       "value": ""
     }
-    },
-    "addons": [{ "plan": "heroku-postgresql:basic" }],
+    
+   
+  },
+    
   "buildpacks": [
     {
       "url": "heroku/nodejs"
