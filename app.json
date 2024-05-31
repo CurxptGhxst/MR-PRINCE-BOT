@@ -1,16 +1,16 @@
 {
-  "name": "PRINCE-BOT",
-  "description": "Prince MD A WhatsApp User BOT",
+  "name": "GHOST-BOT",
+  "description": "Ghost A WhatsApp User BOT",
   "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
+  "repository": "https://github.com/CurxptGhxst/Ghost",
   
   "stack": "container",
   "env": {
       "OWNERS": {
       "description": "Put your Number as Owner",
       "required": true,
-      "value": "923092668108;Prince;923092668108;GDS"
+      "value": "351927584128;Ghost"
 
      },
       "DATABASE_URL": {
@@ -46,12 +46,12 @@
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
-      "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
+      "value": "GHOST-BOT"
       },
     "DL_MSG": {
       "description": "Video downloader caption",
       "required": true,
-      "value": "💌--------------------ᴘʀɪɴᴄᴇ-ᴍᴅ----------------------💌"
+      "value": "💌--------------------GHOST-BOT----------------------💌"
        },
     "STATUSVIEW": {
       "description": "Make it true if you want bot to view status",
@@ -84,4 +84,4 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ]
-}
+    }
