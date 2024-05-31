@@ -1,10 +1,10 @@
-import { watchFile, unwatchFile } from 'fs'
-import chalk from 'chalk'
-import { fileURLToPath } from 'url'
-import fs from 'fs'
+import { watchFile, unwatchFile } from 'fs';
+import chalk from 'chalk';
+import { fileURLToPath } from 'url';
+import fs from 'fs';
 
-import dotenv from 'dotenv'
-dotenv.config()
+import dotenv from 'dotenv';
+dotenv.config();
 
 const ownervb = process.env.OWNERS;
 if (!ownervb){
@@ -27,16 +27,16 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
-global.prems = ['']
-global.allowed = ['']
-global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
-global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
-global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
-global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = ['GataDios']
+global.mods = ['923042205427'];
+global.prems = [''];
+global.allowed = [''];
+global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124'];
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63'];
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())];
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5'];
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())];
+global.lolkeysapi = ['GataDios'];
 //💌------------------------------------------💌
 
 
@@ -44,7 +44,7 @@ global.lolkeysapi = ['GataDios']
 //💌------------------------------------------💌
 //CONFIG VARS. Do not touch them⚠️
 
-  global.vidcap = process.env.DL_MSG
+  global.vidcap = process.env.DL_MSG;
 
 
 //💌------------------------------------------💌
@@ -67,7 +67,7 @@ global.APIs = {
   nrtm: 'https://fg-nrtm.ddns.net',
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
-}
+};
 // 💌------------------------------------------💌
 
 
@@ -83,24 +83,24 @@ global.APIKeys = {
   'https://violetics.pw': 'beta',
   'https://zenzapis.xyz': `${keysxxx}`
    
-}
+};
 
 //💌------------------------------------------💌
 
 
 
 // Bot Images 
-global.imagen1 = fs.readFileSync("./Assets/menus/Menu.png")
-global.imagen2 = fs.readFileSync("./Assets/menus/Menu1.jpg")
-global.imagen3 = fs.readFileSync("./Assets/menus/Menu2.jpg")
-global.imagen4 = fs.readFileSync("./Assets/menus/Menu3.jpg")
-global.imagen5 = fs.readFileSync("./Assets/menus/img2.jpg")
-global.imagen6 = fs.readFileSync("./Assets/menus/img5.jpg")
-global.imagen7 = fs.readFileSync("./Assets/menus/img6.jpg")
-global.imagen8 = fs.readFileSync("./Assets/menus/img8.jpg")
-global.imagen9 = fs.readFileSync("./Assets/menus/img9.jpg")
-global.imagen10 = fs.readFileSync("./Assets/menus/img11.jpg")
-global.imagen11 = fs.readFileSync("./Assets/menus/img12.jpg")
+global.imagen1 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen2 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen3 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen4 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen5 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen6 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen7 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen8 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen9 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen10 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
+global.imagen11 = fs.readFileSync("https://telegra.ph/file/eb0b01ecb62eb4b3b9010.jpg");
 //💌------------------------------------------💌
 
 
@@ -112,53 +112,28 @@ global.imagen11 = fs.readFileSync("./Assets/menus/img12.jpg")
 
 
 // Randome
-global.princeImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11]
+global.princeImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11];
 //💌------------------------------------------💌
 
 
 
 // Moderator 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
+global.developer = 'https://wa.me/message/DCAK67ON3XVOG1'; //contact
 //💌------------------------------------------💌
 
 
 
 //Sticker WM
-global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
-global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS'
-global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
-global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
-global.thumb = fs.readFileSync('./Assets/Prince.png')
+global.botname = 'Ghost👻';
+global.botname = 'Ghost👻';
+global.packname = 'Ghost♥️';
+global.author = 'Ghost♥️';
+global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4';
+global.Princesc = 'https://github.com/CurxptGhxst/Ghost';
 //💌------------------------------------------💌
 
 
 
 //Reactions
-global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
-global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
-global.rwait = '♻️'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🌀' 
-global.multiplier = 69 
-global.maxwarn = '2' 
-//💌------------------------------------------💌
-
-
-
-
-
-
-let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
-  unwatchFile(file)
-  console.log(chalk.redBright("Update 'config.js'"))
-  import(`${file}?update=${Date.now()}`)
-})
+global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵';
+      
